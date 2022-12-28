@@ -52,4 +52,6 @@ git log
 ```
 
 [마크다운 문법 정리 →](./markdown.md)
+<br>
+
 [GitHub 기반 원격저장소 활용 →](./github.md)
