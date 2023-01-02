@@ -55,3 +55,7 @@ git log
 <br>
 
 [GitHub 기반 원격저장소 활용 →](./github.md)
+
+<br>
+
+[Python 기초 →](./python/basic.md)
