@@ -76,7 +76,7 @@ y, x = x, y
   - [문자열(String)](#string)
   - 튜플(Tuple)
   - [리스트(List)](#list)
-  - 레인지(Range)
+  - [레인지(Range)](#range)
 
 <br>
 
@@ -160,6 +160,20 @@ y, x = x, y
 
 <br>
 
+### range
+
+- 숫자의 시퀀스를 나타내기 위해 사용
+- 변경 불가능함(Immutable)
+- 반복 가능함(Iterable)
+- 기본형: range(n)
+  - 0부터 n-1까지의 숫자의 시퀀스
+- 범위 지정: range(n, m)
+  - n부터 m-1까지의 숫자의 시퀀스
+- 범위 및 스텝 지정: range(n, m, s)
+  - n부터 m-1까지 s만큼 증가시키며 숫자의 시퀀스
+
+<br>
+
 ### None
 
 - 값이 없음을 표현하기 위한 None 타입
@@ -172,3 +186,61 @@ y, x = x, y
 코드에 대한 설명
 
 주석으로 처리될 내용 앞에 `#`을 입력
+
+<br>
+
+## String Formatting
+
+### %-formatting
+
+- 문자열을 변수를 활용하여 만드는 방법
+
+```python
+name = 'Kim'
+score = 4.5
+
+print('Hello, $s' % name)
+print('내 성적은 %d' % score)
+print('내 성적은 %f' % score)
+```
+
+```bash
+Hello, Kim
+내 성적은 4
+내 성적은 4.500000
+```
+
+<br>
+
+### f-string
+
+- 문자열을 변수를 활용해여 만드는 방법
+
+```python
+name = 'Kim'
+score = 4.5
+
+print(f'Hello, {name}! 내 성적은 {score}')
+```
+
+```bash
+Hello, Kim! 내 성적은 4.5
+```
+
+<br>
+
+## 형 변환(Typecasting)
+
+### 암시적 형 변환(Implicit)
+
+- 사용자가 의도하지 않고, 파이썬 내부적으로 자료형을 변환 하는 경우
+
+<br>
+
+### 명시적 형 변환(Explicit)
+
+- str\*, float ⇒ int
+- str\*, int ⇒ float
+- int, float, list, tuple, dict ⇒ str
+
+> \*형식에 맞는 문자열만 가능

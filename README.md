@@ -59,3 +59,6 @@ git log
 <br>
 
 [Python 기초 →](./python/basic.md)
+<br>
+
+[Python 제어문 →](./python/control.md)
