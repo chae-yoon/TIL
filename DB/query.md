@@ -14,3 +14,7 @@ SELECT * FROM [table_references];
 
    SQL 쿼리 도구 모음에서 왼쪽 3번째 아이콘 클릭
    Keyboard Shortcut : command+enter
+
+<br>
+
+### [Single Table Queries →](./querying_data.md)
