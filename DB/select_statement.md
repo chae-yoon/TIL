@@ -26,3 +26,17 @@ SELECT
 FROM
   table_name;
 ```
+
+<br>
+
+## SELECT Statement 실행 순서
+
+- 테이블에서 특정 조건에 맞춰 그룹화 하고 만약 그룹 중에서 조건이 있다면 필터링 한 뒤 조회하여 정렬해 특정 위치의 값을 출력
+
+1. FROM
+2. WHERE
+3. GROUP BY
+4. HAVING
+5. SELECT
+6. ORDER BY
+7. LIMIT
